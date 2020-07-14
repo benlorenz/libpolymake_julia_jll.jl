@@ -42,19 +42,19 @@ os = "linux"
 [[libpolymake_julia]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5249e5a8fc55932316b9ccb5f06aa1c1a2e6300d"
+git-tree-sha1 = "f170236e2e29ad85f43baa7e7c8f11d2f4c0845a"
 os = "macos"
 
     [[libpolymake_julia.download]]
-    sha256 = "caefa25154bcb9c76368736ec59933a2ad936aaf6e413a710bb4c7225cdd096b"
-    url = "https://github.com/benlorenz/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.0.2+0/libpolymake_julia.v0.0.2.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "4c3d5c05ff0784f8526be37880b0c04fc287fc14e7ef6c9396c4f82462e6f6d0"
+    url = "https://github.com/benlorenz/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.0.3+0/libpolymake_julia.v0.0.3.x86_64-apple-darwin14-cxx11.tar.gz"
 [[libpolymake_julia]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "efeea1753343b581f380de8c22e91a3edff1a66d"
+git-tree-sha1 = "563a3ba362d046e9ea2cac51bc291d9d324c586f"
 libc = "glibc"
 os = "linux"
 
     [[libpolymake_julia.download]]
-    sha256 = "650d5947c7573f28d94dc45716b76327e49e1e033337087dc31ef2773a0cd8b4"
-    url = "https://github.com/benlorenz/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.0.2+0/libpolymake_julia.v0.0.2.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "296600e2711a48fd008036d6827fa6e43c609bc3cfe3df40df699c02b211e26d"
+    url = "https://github.com/benlorenz/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.0.3+0/libpolymake_julia.v0.0.3.x86_64-linux-gnu-cxx11.tar.gz"
