@@ -1,14 +1,5 @@
 [[libpolymake_julia]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fcc29ba2178f40bfe4905fd52ec2ec613fe41788"
-os = "macos"
-
-    [[libpolymake_julia.download]]
-    sha256 = "9023fa182a8e4596c90696ab48bd42980efdd96a2a48107e90257bc0af71953e"
-    url = "https://github.com/benlorenz/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.1.0+0/libpolymake_julia.v0.1.0.x86_64-apple-darwin14-cxx11.tar.gz"
-[[libpolymake_julia]]
-arch = "x86_64"
 git-tree-sha1 = "6dc4eacc3baa337ba35a9f3f7bfdeac1275e4ad6"
 os = "macos"
 
