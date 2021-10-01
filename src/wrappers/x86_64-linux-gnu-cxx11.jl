@@ -2,6 +2,7 @@
 export libpolymake_julia, polymake_run_script, type_translator
 
 using CompilerSupportLibraries_jll
+using FLINT_jll
 using libcxxwrap_julia_jll
 using polymake_jll
 JLLWrappers.@generate_wrapper_header("libpolymake_julia")
@@ -9,7 +10,7 @@ JLLWrappers.@declare_library_product(libpolymake_julia, "libpolymake_julia.so")
 JLLWrappers.@declare_executable_product(polymake_run_script)
 JLLWrappers.@declare_file_product(type_translator)
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libcxxwrap_julia_jll, polymake_jll)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, FLINT_jll, libcxxwrap_julia_jll, polymake_jll)
     JLLWrappers.@init_library_product(
         libpolymake_julia,
         "lib/libpolymake_julia.so",
