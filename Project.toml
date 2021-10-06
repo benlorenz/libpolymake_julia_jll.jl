@@ -1,6 +1,6 @@
 name = "libpolymake_julia_jll"
 uuid = "4d8266f6-2b3b-57e3-ad7a-d431eaaac945"
-version = "0.4.316+0"
+version = "0.4.400+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
