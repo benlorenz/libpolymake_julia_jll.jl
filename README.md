@@ -9,6 +9,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 The tarballs for `libpolymake_julia_jll.jl` have been built from these sources:
 
 * compressed archive: https://github.com/oscar-system/libpolymake-julia/archive/v0.5.0.tar.gz (SHA256 checksum: `5af8ccce9928b05c2c30f6adcddc7f07bdbef79d69d7d28aa6671846e742d2fb`)
+* files in directory, relative to originating `build_tarballs.jl`: `./bundled`
 
 ## Platforms
 
@@ -16,6 +17,42 @@ The tarballs for `libpolymake_julia_jll.jl` have been built from these sources:
 
 * `macOS aarch64 {julia_version=1.7.0}` (`aarch64-apple-darwin-julia_version+1.7.0`)
 * `macOS aarch64 {julia_version=1.8.0}` (`aarch64-apple-darwin-julia_version+1.8.0`)
+* `Linux aarch64 {cxxstring_abi=cxx03, julia_version=1.6.0, libc=glibc}` (`aarch64-linux-gnu-cxx03-julia_version+1.6.0`)
+* `Linux aarch64 {cxxstring_abi=cxx03, julia_version=1.7.0, libc=glibc}` (`aarch64-linux-gnu-cxx03-julia_version+1.7.0`)
+* `Linux aarch64 {cxxstring_abi=cxx03, julia_version=1.8.0, libc=glibc}` (`aarch64-linux-gnu-cxx03-julia_version+1.8.0`)
+* `Linux aarch64 {cxxstring_abi=cxx11, julia_version=1.6.0, libc=glibc}` (`aarch64-linux-gnu-cxx11-julia_version+1.6.0`)
+* `Linux aarch64 {cxxstring_abi=cxx11, julia_version=1.7.0, libc=glibc}` (`aarch64-linux-gnu-cxx11-julia_version+1.7.0`)
+* `Linux aarch64 {cxxstring_abi=cxx11, julia_version=1.8.0, libc=glibc}` (`aarch64-linux-gnu-cxx11-julia_version+1.8.0`)
+* `Linux aarch64 {cxxstring_abi=cxx03, julia_version=1.6.0, libc=musl}` (`aarch64-linux-musl-cxx03-julia_version+1.6.0`)
+* `Linux aarch64 {cxxstring_abi=cxx03, julia_version=1.7.0, libc=musl}` (`aarch64-linux-musl-cxx03-julia_version+1.7.0`)
+* `Linux aarch64 {cxxstring_abi=cxx03, julia_version=1.8.0, libc=musl}` (`aarch64-linux-musl-cxx03-julia_version+1.8.0`)
+* `Linux aarch64 {cxxstring_abi=cxx11, julia_version=1.6.0, libc=musl}` (`aarch64-linux-musl-cxx11-julia_version+1.6.0`)
+* `Linux aarch64 {cxxstring_abi=cxx11, julia_version=1.7.0, libc=musl}` (`aarch64-linux-musl-cxx11-julia_version+1.7.0`)
+* `Linux aarch64 {cxxstring_abi=cxx11, julia_version=1.8.0, libc=musl}` (`aarch64-linux-musl-cxx11-julia_version+1.8.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx03, julia_version=1.6.0, libc=glibc}` (`armv7l-linux-gnueabihf-cxx03-julia_version+1.6.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx03, julia_version=1.7.0, libc=glibc}` (`armv7l-linux-gnueabihf-cxx03-julia_version+1.7.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx03, julia_version=1.8.0, libc=glibc}` (`armv7l-linux-gnueabihf-cxx03-julia_version+1.8.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx11, julia_version=1.6.0, libc=glibc}` (`armv7l-linux-gnueabihf-cxx11-julia_version+1.6.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx11, julia_version=1.7.0, libc=glibc}` (`armv7l-linux-gnueabihf-cxx11-julia_version+1.7.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx11, julia_version=1.8.0, libc=glibc}` (`armv7l-linux-gnueabihf-cxx11-julia_version+1.8.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx03, julia_version=1.6.0, libc=musl}` (`armv7l-linux-musleabihf-cxx03-julia_version+1.6.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx03, julia_version=1.7.0, libc=musl}` (`armv7l-linux-musleabihf-cxx03-julia_version+1.7.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx03, julia_version=1.8.0, libc=musl}` (`armv7l-linux-musleabihf-cxx03-julia_version+1.8.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx11, julia_version=1.6.0, libc=musl}` (`armv7l-linux-musleabihf-cxx11-julia_version+1.6.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx11, julia_version=1.7.0, libc=musl}` (`armv7l-linux-musleabihf-cxx11-julia_version+1.7.0`)
+* `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx11, julia_version=1.8.0, libc=musl}` (`armv7l-linux-musleabihf-cxx11-julia_version+1.8.0`)
+* `Linux i686 {cxxstring_abi=cxx03, julia_version=1.6.0, libc=glibc}` (`i686-linux-gnu-cxx03-julia_version+1.6.0`)
+* `Linux i686 {cxxstring_abi=cxx03, julia_version=1.7.0, libc=glibc}` (`i686-linux-gnu-cxx03-julia_version+1.7.0`)
+* `Linux i686 {cxxstring_abi=cxx03, julia_version=1.8.0, libc=glibc}` (`i686-linux-gnu-cxx03-julia_version+1.8.0`)
+* `Linux i686 {cxxstring_abi=cxx11, julia_version=1.6.0, libc=glibc}` (`i686-linux-gnu-cxx11-julia_version+1.6.0`)
+* `Linux i686 {cxxstring_abi=cxx11, julia_version=1.7.0, libc=glibc}` (`i686-linux-gnu-cxx11-julia_version+1.7.0`)
+* `Linux i686 {cxxstring_abi=cxx11, julia_version=1.8.0, libc=glibc}` (`i686-linux-gnu-cxx11-julia_version+1.8.0`)
+* `Linux powerpc64le {cxxstring_abi=cxx03, julia_version=1.6.0, libc=glibc}` (`powerpc64le-linux-gnu-cxx03-julia_version+1.6.0`)
+* `Linux powerpc64le {cxxstring_abi=cxx03, julia_version=1.7.0, libc=glibc}` (`powerpc64le-linux-gnu-cxx03-julia_version+1.7.0`)
+* `Linux powerpc64le {cxxstring_abi=cxx03, julia_version=1.8.0, libc=glibc}` (`powerpc64le-linux-gnu-cxx03-julia_version+1.8.0`)
+* `Linux powerpc64le {cxxstring_abi=cxx11, julia_version=1.6.0, libc=glibc}` (`powerpc64le-linux-gnu-cxx11-julia_version+1.6.0`)
+* `Linux powerpc64le {cxxstring_abi=cxx11, julia_version=1.7.0, libc=glibc}` (`powerpc64le-linux-gnu-cxx11-julia_version+1.7.0`)
+* `Linux powerpc64le {cxxstring_abi=cxx11, julia_version=1.8.0, libc=glibc}` (`powerpc64le-linux-gnu-cxx11-julia_version+1.8.0`)
 * `macOS x86_64 {julia_version=1.6.0}` (`x86_64-apple-darwin-julia_version+1.6.0`)
 * `macOS x86_64 {julia_version=1.7.0}` (`x86_64-apple-darwin-julia_version+1.7.0`)
 * `macOS x86_64 {julia_version=1.8.0}` (`x86_64-apple-darwin-julia_version+1.8.0`)
@@ -31,6 +68,9 @@ The tarballs for `libpolymake_julia_jll.jl` have been built from these sources:
 * `Linux x86_64 {cxxstring_abi=cxx11, julia_version=1.6.0, libc=musl}` (`x86_64-linux-musl-cxx11-julia_version+1.6.0`)
 * `Linux x86_64 {cxxstring_abi=cxx11, julia_version=1.7.0, libc=musl}` (`x86_64-linux-musl-cxx11-julia_version+1.7.0`)
 * `Linux x86_64 {cxxstring_abi=cxx11, julia_version=1.8.0, libc=musl}` (`x86_64-linux-musl-cxx11-julia_version+1.8.0`)
+* `FreeBSD x86_64 {julia_version=1.6.0}` (`x86_64-unknown-freebsd-julia_version+1.6.0`)
+* `FreeBSD x86_64 {julia_version=1.7.0}` (`x86_64-unknown-freebsd-julia_version+1.7.0`)
+* `FreeBSD x86_64 {julia_version=1.8.0}` (`x86_64-unknown-freebsd-julia_version+1.8.0`)
 
 ## Dependencies
 
